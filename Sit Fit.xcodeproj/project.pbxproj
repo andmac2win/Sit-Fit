@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A080ACF1A815749008CC28C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A080ACE1A815749008CC28C /* MobileCoreServices.framework */; };
+		1A080AD11A815763008CC28C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A080AD01A815763008CC28C /* NetworkExtension.framework */; };
+		1A080AD31A815777008CC28C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A080AD21A815777008CC28C /* SystemConfiguration.framework */; };
+		1A080AD51A8157AA008CC28C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A080AD41A8157AA008CC28C /* libsqlite3.0.dylib */; };
+		1A080AD71A81580D008CC28C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A080AD61A81580D008CC28C /* AudioToolbox.framework */; };
+		1A080ADA1A815B72008CC28C /* FeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A080AD91A815B72008CC28C /* FeedData.swift */; };
 		1AFF91261A810FC900C4461B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF91251A810FC900C4461B /* AppDelegate.swift */; };
-		1AFF91281A810FC900C4461B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF91271A810FC900C4461B /* ViewController.swift */; };
+		1AFF91281A810FC900C4461B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF91271A810FC900C4461B /* LoginViewController.swift */; };
 		1AFF912B1A810FC900C4461B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF91291A810FC900C4461B /* Main.storyboard */; };
 		1AFF912D1A810FC900C4461B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF912C1A810FC900C4461B /* Images.xcassets */; };
 		1AFF91301A810FC900C4461B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF912E1A810FC900C4461B /* LaunchScreen.xib */; };
 		1AFF913C1A810FC900C4461B /* Sit_FitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF913B1A810FC900C4461B /* Sit_FitTests.swift */; };
+		1AFF91491A81176600C4461B /* NewSeat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF91471A81176600C4461B /* NewSeat.storyboard */; };
+		1AFF914F1A81315900C4461B /* MyFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF914E1A81315900C4461B /* MyFeedTableViewController.swift */; };
+		1AFF91511A81319700C4461B /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF91501A81319700C4461B /* FeedTableViewController.swift */; };
+		1AFF91531A81520B00C4461B /* NewSeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF91521A81520B00C4461B /* NewSeatViewController.swift */; };
+		1AFF915B1A8154C300C4461B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFF91561A8154C300C4461B /* Bolts.framework */; };
+		1AFF915C1A8154C300C4461B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFF91571A8154C300C4461B /* Parse.framework */; };
+		1AFF915D1A8154C300C4461B /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFF91581A8154C300C4461B /* ParseCrashReporting.framework */; };
+		1AFF915E1A8154C300C4461B /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFF91591A8154C300C4461B /* ParseFacebookUtils.framework */; };
+		1AFF915F1A8154C300C4461B /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFF915A1A8154C300C4461B /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +41,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A080ACE1A815749008CC28C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1A080AD01A815763008CC28C /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		1A080AD21A815777008CC28C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A080AD41A8157AA008CC28C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		1A080AD61A81580D008CC28C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A080AD91A815B72008CC28C /* FeedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedData.swift; sourceTree = "<group>"; };
 		1AFF91201A810FC900C4461B /* Sit Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sit Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFF91241A810FC900C4461B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AFF91251A810FC900C4461B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AFF91271A810FC900C4461B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AFF91271A810FC900C4461B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "Sit Fit/LoginViewController.swift"; sourceTree = "<group>"; };
 		1AFF912A1A810FC900C4461B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AFF912C1A810FC900C4461B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AFF912F1A810FC900C4461B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1AFF91351A810FC900C4461B /* Sit FitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sit FitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFF913A1A810FC900C4461B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AFF913B1A810FC900C4461B /* Sit_FitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sit_FitTests.swift; sourceTree = "<group>"; };
+		1AFF91451A81116700C4461B /* Architecture.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Architecture.md; sourceTree = "<group>"; };
+		1AFF91481A81176600C4461B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NewSeat.storyboard; sourceTree = "<group>"; };
+		1AFF914E1A81315900C4461B /* MyFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFeedTableViewController.swift; sourceTree = "<group>"; };
+		1AFF91501A81319700C4461B /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		1AFF91521A81520B00C4461B /* NewSeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSeatViewController.swift; sourceTree = "<group>"; };
+		1AFF91561A8154C300C4461B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1AFF91571A8154C300C4461B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1AFF91581A8154C300C4461B /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		1AFF91591A8154C300C4461B /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		1AFF915A1A8154C300C4461B /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		1AFF91621A81555200C4461B /* Sit Fit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sit Fit-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A080AD71A81580D008CC28C /* AudioToolbox.framework in Frameworks */,
+				1A080AD51A8157AA008CC28C /* libsqlite3.0.dylib in Frameworks */,
+				1A080AD31A815777008CC28C /* SystemConfiguration.framework in Frameworks */,
+				1A080AD11A815763008CC28C /* NetworkExtension.framework in Frameworks */,
+				1A080ACF1A815749008CC28C /* MobileCoreServices.framework in Frameworks */,
+				1AFF915C1A8154C300C4461B /* Parse.framework in Frameworks */,
+				1AFF915D1A8154C300C4461B /* ParseCrashReporting.framework in Frameworks */,
+				1AFF915F1A8154C300C4461B /* ParseUI.framework in Frameworks */,
+				1AFF915E1A8154C300C4461B /* ParseFacebookUtils.framework in Frameworks */,
+				1AFF915B1A8154C300C4461B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A080AD81A815B1C008CC28C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A080AD91A815B72008CC28C /* FeedData.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		1AFF91171A810FC900C4461B = {
 			isa = PBXGroup;
 			children = (
+				1AFF914B1A81308A00C4461B /* Main Feeds & Login */,
+				1AFF914A1A81307B00C4461B /* New Seat */,
 				1AFF91221A810FC900C4461B /* Sit Fit */,
 				1AFF91381A810FC900C4461B /* Sit FitTests */,
 				1AFF91211A810FC900C4461B /* Products */,
+				1AFF91551A8154AA00C4461B /* FrameWorks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +130,9 @@
 		1AFF91221A810FC900C4461B /* Sit Fit */ = {
 			isa = PBXGroup;
 			children = (
-				1AFF91251A810FC900C4461B /* AppDelegate.swift */,
-				1AFF91271A810FC900C4461B /* ViewController.swift */,
-				1AFF91291A810FC900C4461B /* Main.storyboard */,
-				1AFF912C1A810FC900C4461B /* Images.xcassets */,
-				1AFF912E1A810FC900C4461B /* LaunchScreen.xib */,
+				1A080AD81A815B1C008CC28C /* Models */,
 				1AFF91231A810FC900C4461B /* Supporting Files */,
+				1AFF91451A81116700C4461B /* Architecture.md */,
 			);
 			path = "Sit Fit";
 			sourceTree = "<group>";
@@ -91,6 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				1AFF91241A810FC900C4461B /* Info.plist */,
+				1AFF91621A81555200C4461B /* Sit Fit-Bridging-Header.h */,
+				1AFF91251A810FC900C4461B /* AppDelegate.swift */,
+				1AFF912C1A810FC900C4461B /* Images.xcassets */,
+				1AFF912E1A810FC900C4461B /* LaunchScreen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +164,43 @@
 				1AFF913A1A810FC900C4461B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AFF914A1A81307B00C4461B /* New Seat */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF91471A81176600C4461B /* NewSeat.storyboard */,
+				1AFF91521A81520B00C4461B /* NewSeatViewController.swift */,
+			);
+			name = "New Seat";
+			sourceTree = "<group>";
+		};
+		1AFF914B1A81308A00C4461B /* Main Feeds & Login */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF91271A810FC900C4461B /* LoginViewController.swift */,
+				1AFF91291A810FC900C4461B /* Main.storyboard */,
+				1AFF914E1A81315900C4461B /* MyFeedTableViewController.swift */,
+				1AFF91501A81319700C4461B /* FeedTableViewController.swift */,
+			);
+			name = "Main Feeds & Login";
+			sourceTree = "<group>";
+		};
+		1AFF91551A8154AA00C4461B /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				1A080AD61A81580D008CC28C /* AudioToolbox.framework */,
+				1A080AD21A815777008CC28C /* SystemConfiguration.framework */,
+				1A080AD01A815763008CC28C /* NetworkExtension.framework */,
+				1A080ACE1A815749008CC28C /* MobileCoreServices.framework */,
+				1A080AD41A8157AA008CC28C /* libsqlite3.0.dylib */,
+				1AFF91561A8154C300C4461B /* Bolts.framework */,
+				1AFF91571A8154C300C4461B /* Parse.framework */,
+				1AFF91581A8154C300C4461B /* ParseCrashReporting.framework */,
+				1AFF91591A8154C300C4461B /* ParseFacebookUtils.framework */,
+				1AFF915A1A8154C300C4461B /* ParseUI.framework */,
+			);
+			name = FrameWorks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFF91491A81176600C4461B /* NewSeat.storyboard in Resources */,
 				1AFF912B1A810FC900C4461B /* Main.storyboard in Resources */,
 				1AFF91301A810FC900C4461B /* LaunchScreen.xib in Resources */,
 				1AFF912D1A810FC900C4461B /* Images.xcassets in Resources */,
@@ -212,7 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFF91281A810FC900C4461B /* ViewController.swift in Sources */,
+				1AFF91281A810FC900C4461B /* LoginViewController.swift in Sources */,
+				1AFF91511A81319700C4461B /* FeedTableViewController.swift in Sources */,
+				1AFF914F1A81315900C4461B /* MyFeedTableViewController.swift in Sources */,
+				1A080ADA1A815B72008CC28C /* FeedData.swift in Sources */,
+				1AFF91531A81520B00C4461B /* NewSeatViewController.swift in Sources */,
 				1AFF91261A810FC900C4461B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +338,7 @@
 				1AFF912A1A810FC900C4461B /* Base */,
 			);
 			name = Main.storyboard;
+			path = "Sit Fit";
 			sourceTree = "<group>";
 		};
 		1AFF912E1A810FC900C4461B /* LaunchScreen.xib */ = {
@@ -250,6 +347,15 @@
 				1AFF912F1A810FC900C4461B /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1AFF91471A81176600C4461B /* NewSeat.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFF91481A81176600C4461B /* Base */,
+			);
+			name = NewSeat.storyboard;
+			path = "Sit Fit";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,9 +442,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Sit Fit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sit Fit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +459,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Sit Fit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sit Fit-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +524,7 @@
 				1AFF91411A810FC900C4461B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AFF91421A810FC900C4461B /* Build configuration list for PBXNativeTarget "Sit FitTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +533,7 @@
 				1AFF91441A810FC900C4461B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
