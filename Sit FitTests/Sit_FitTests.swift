@@ -2,8 +2,8 @@
 //  Sit_FitTests.swift
 //  Sit FitTests
 //
-//  Created by andrew Mcdonald on 2/3/15.
-//  Copyright (c) 2015 Andrew McDonald. All rights reserved.
+//  Created by Jo Albright on 2/3/15.
+//  Copyright (c) 2015 Jo Albright. All rights reserved.
 //
 
 import UIKit

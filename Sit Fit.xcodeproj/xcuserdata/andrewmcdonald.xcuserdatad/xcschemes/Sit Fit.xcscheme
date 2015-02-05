@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1AFF911F1A810FC900C4461B"
+               BlueprintIdentifier = "A94B04F81A810FAF008FAFBC"
                BuildableName = "Sit Fit.app"
                BlueprintName = "Sit Fit"
                ReferencedContainer = "container:Sit Fit.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1AFF91341A810FC900C4461B"
+               BlueprintIdentifier = "A94B050D1A810FAF008FAFBC"
                BuildableName = "Sit FitTests.xctest"
                BlueprintName = "Sit FitTests"
                ReferencedContainer = "container:Sit Fit.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1AFF91341A810FC900C4461B"
+               BlueprintIdentifier = "A94B050D1A810FAF008FAFBC"
                BuildableName = "Sit FitTests.xctest"
                BlueprintName = "Sit FitTests"
                ReferencedContainer = "container:Sit Fit.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1AFF911F1A810FC900C4461B"
+            BlueprintIdentifier = "A94B04F81A810FAF008FAFBC"
             BuildableName = "Sit Fit.app"
             BlueprintName = "Sit Fit"
             ReferencedContainer = "container:Sit Fit.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1AFF911F1A810FC900C4461B"
+            BlueprintIdentifier = "A94B04F81A810FAF008FAFBC"
             BuildableName = "Sit Fit.app"
             BlueprintName = "Sit Fit"
             ReferencedContainer = "container:Sit Fit.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1AFF911F1A810FC900C4461B"
+            BlueprintIdentifier = "A94B04F81A810FAF008FAFBC"
             BuildableName = "Sit Fit.app"
             BlueprintName = "Sit Fit"
             ReferencedContainer = "container:Sit Fit.xcodeproj">

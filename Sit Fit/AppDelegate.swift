@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Sit Fit
 //
-//  Created by andrew Mcdonald on 2/3/15.
-//  Copyright (c) 2015 Andrew McDonald. All rights reserved.
+//  Created by Jo Albright on 2/3/15.
+//  Copyright (c) 2015 Jo Albright. All rights reserved.
 //
 
 import UIKit
@@ -13,20 +13,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        Parse.setApplicationId("", clientKey: "")
+        Parse.setApplicationId("yJwkYrve51po54BWFsndggMLXv9INdBSWeZYqlMG", clientKey: "5MzZMBYXK2q76njyBYbweTMpvzBfYZTGDjrbqyFm")
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.makeKeyAndVisible()
         
         var mainSB = UIStoryboard(name: "Main", bundle: nil)
-        
         var loginVC = mainSB.instantiateInitialViewController() as LoginViewController
         
-        window?.rootViewController = loginVC 
+        window?.rootViewController = loginVC
         
+        // Override point for customization after application launch.
         return true
     }
 
