@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8E39131A83CF5000B9AF0B /* FourSquareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8E39121A83CF5000B9AF0B /* FourSquareRequest.swift */; };
+		1A8E39151A83CFBF00B9AF0B /* VenuesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8E39141A83CFBF00B9AF0B /* VenuesTableViewController.swift */; };
+		1A8E39171A83FB0F00B9AF0B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8E39161A83FB0F00B9AF0B /* MapViewController.swift */; };
 		A91B4B4B1A815709001A0427 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91B4B4A1A815709001A0427 /* AudioToolbox.framework */; };
 		A91B4B4F1A815744001A0427 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91B4B4E1A815744001A0427 /* MobileCoreServices.framework */; };
 		A91B4B511A815759001A0427 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91B4B501A815759001A0427 /* SystemConfiguration.framework */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A8E39121A83CF5000B9AF0B /* FourSquareRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourSquareRequest.swift; sourceTree = "<group>"; };
+		1A8E39141A83CFBF00B9AF0B /* VenuesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesTableViewController.swift; sourceTree = "<group>"; };
+		1A8E39161A83FB0F00B9AF0B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A91B4B4A1A815709001A0427 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A91B4B4C1A81572F001A0427 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A91B4B4E1A815744001A0427 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -101,6 +107,7 @@
 		A91B4B541A815B13001A0427 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1A8E39121A83CF5000B9AF0B /* FourSquareRequest.swift */,
 				A91B4B551A815B75001A0427 /* FeedData.swift */,
 			);
 			name = Models;
@@ -174,6 +181,7 @@
 				A94B05251A813101008FAFBC /* FeedTableViewController.swift */,
 				A94B05271A81313D008FAFBC /* MyFeedTableViewController.swift */,
 				A91B4B581A83B40F001A0427 /* FeedCell.swift */,
+				1A8E39161A83FB0F00B9AF0B /* MapViewController.swift */,
 			);
 			name = "Main Feeds & Login";
 			sourceTree = "<group>";
@@ -183,6 +191,7 @@
 			children = (
 				A94B05201A811763008FAFBC /* NewSeat.storyboard */,
 				A94B05291A815208008FAFBC /* NewSeatViewController.swift */,
+				1A8E39141A83CFBF00B9AF0B /* VenuesTableViewController.swift */,
 			);
 			name = "New Seat";
 			sourceTree = "<group>";
@@ -305,13 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8E39131A83CF5000B9AF0B /* FourSquareRequest.swift in Sources */,
 				A91B4B591A83B40F001A0427 /* FeedCell.swift in Sources */,
 				A94B05011A810FAF008FAFBC /* LoginViewController.swift in Sources */,
+				1A8E39171A83FB0F00B9AF0B /* MapViewController.swift in Sources */,
 				A94B05281A81313D008FAFBC /* MyFeedTableViewController.swift in Sources */,
 				A94B04FF1A810FAF008FAFBC /* AppDelegate.swift in Sources */,
 				A91B4B561A815B75001A0427 /* FeedData.swift in Sources */,
 				A94B052A1A815208008FAFBC /* NewSeatViewController.swift in Sources */,
 				A94B05261A813101008FAFBC /* FeedTableViewController.swift in Sources */,
+				1A8E39151A83CFBF00B9AF0B /* VenuesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
